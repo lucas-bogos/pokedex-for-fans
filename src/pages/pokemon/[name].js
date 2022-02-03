@@ -3,7 +3,7 @@ import styles from "../../styles/Pokemon.module.css"
 
 export const getStaticPaths = async () => {
     const maxPokemons = 251;
-    const api = "https://pokeapi.co/api/v2/pokemon/";
+    const api = "https://pokeapi.co/api/v2/pokemon";
     
     const response = await fetch(`${api}/?limit=${maxPokemons}`);
     const data = await response.json();

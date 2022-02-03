@@ -1,11 +1,12 @@
 .card {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     padding: 2em 1em;
-    margin-bottom: 2em;
-    width: 23%;
+    margin: 1.5em 1em;
+    width: 250px;
     border-radius: 1em;
     border: 2px solid #f04b42ea;
     background-color: rgba(240, 255, 255, 0.11);

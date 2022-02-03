@@ -1,5 +1,5 @@
-import "../styles/globals.css"
-import Layout from "../components/patterns/Layout"
+import "../styles/globals.css";
+import Layout from "../components/patterns/Layout";
 
 export default ({ Component, pageProps }) => {
   return <Layout>

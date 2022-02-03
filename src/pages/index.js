@@ -1,10 +1,11 @@
 import Card from "../components/ui/Card";
-import styles from "../styles/Home.module.css"
+import styles from "../styles/Home.module.css";
+import axios from "axios";
 
 export const getStaticProps = async () => {
   const maxPokemons = 251;
-  const api = "https://pokeapi.co/api/v2/pokemon/";
-    
+  const api = "https://pokeapi.co/api/v2/pokemon";
+
   const response = await fetch(`${api}/?limit=${maxPokemons}`);
   const data = await response.json();
 

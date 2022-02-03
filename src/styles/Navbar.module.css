@@ -42,3 +42,19 @@
     color: #f04b42ea;
     text-decoration: underline;
 }
+
+@media screen and (max-width: 425px) {
+    .navbar {
+        font-size: 14px;
+    }
+
+    .logo h1 span {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    .logo h1 {
+        display: none;
+    }
+}
