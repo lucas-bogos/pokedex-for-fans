@@ -10,3 +10,13 @@
 .about p {
     margin-bottom: 1.5em;
 }
+
+@media screen and (max-width: 490px) {
+    .about p {
+        font-size: 12px;
+    }
+
+    .about h1 {
+        font-size: 1.8em;
+    }
+}

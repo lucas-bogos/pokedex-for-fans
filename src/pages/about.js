@@ -7,8 +7,8 @@ export default () => {
         <p>Este é um projeto de uma pokedéx para fãns da incrível série animada japonesa de Pokémon.</p>
         <Image
             src="/images/charizard.png"
-            width="300"
-            height="300"
+            width="280"
+            height="280"
             alt="Charizard"
         />
     </div>
