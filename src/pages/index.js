@@ -1,6 +1,5 @@
 import Card from "../components/ui/Card";
 import styles from "../styles/Home.module.css";
-import axios from "axios";
 
 export const getStaticProps = async () => {
   const maxPokemons = 251;
